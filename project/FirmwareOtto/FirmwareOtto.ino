@@ -118,7 +118,7 @@ void walkForwardFast() {
   int stride = 30;
   int drift = 10;
 
-  footLeft.write(90 - lift);
+ ( footLeft.write(90 - lift);
   footRight.write(90 - lift);
 
   legRight.write(90 - stride - drift);
@@ -128,7 +128,7 @@ void walkForwardFast() {
   footRight.write(90 + lift);
 
   legLeft.write(90 + stride - drift);
-  legRight.write(90 + stride + drift);
+  legRight.write(90 + stride + drift);) probleme ici à régler
 }
 
 // ===== SETUP =====
