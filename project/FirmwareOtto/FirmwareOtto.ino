@@ -120,26 +120,22 @@ void walkForwardFast() {
 
   footLeft.write(90 - lift);
   footRight.write(90 - lift);
-  RemoteXY_delay(tempo);
 
   legRight.write(90 - stride - drift);
   legLeft.write(90 - stride + drift);
-  RemoteXY_delay(tempo);
 
   footLeft.write(90 + lift);
   footRight.write(90 + lift);
-  RemoteXY_delay(tempo);
 
   legLeft.write(90 + stride - drift);
   legRight.write(90 + stride + drift);
-  RemoteXY_delay(tempo);
 }
 
 // ===== SETUP =====
 void setup() {
-  playStarWars();  // 🎵 musique au démarrage
+  // playStarWars();  // musique au démarrage
 
-  RemoteXY_Init();
+  // RemoteXY_Init();
 
   Serial.begin(9600);
   Serial.println("Démarrage");
@@ -157,11 +153,11 @@ void setup() {
   footLeft.write(90);
   footRight.write(90);
 
-  RemoteXY_delay(2000);
+  // RemoteXY_delay(2000);
 }
 
 // ===== LOOP =====
 void loop() {
-  RemoteXY_Handler();
+  // RemoteXY_Handler();
   walkForwardFast();
 }
