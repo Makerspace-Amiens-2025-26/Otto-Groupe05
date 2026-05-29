@@ -3,7 +3,7 @@
 #include <BLEDevice.h>
 
 // RemoteXY connection settings
-#define REMOTEXY_BLUETOOTH_NAME "Otto Groupe 11"
+#define REMOTEXY_BLUETOOTH_NAME "Otto Groupe 5"
 #define REMOTEXY_ACCESS_PASSWORD "sixseven"
 
 
