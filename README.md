@@ -22,4 +22,4 @@ Nous accueillons et apprécions toute contribution. Si vous souhaitez contribuer
 
 ## Contact
 
-Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter.
+Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter
